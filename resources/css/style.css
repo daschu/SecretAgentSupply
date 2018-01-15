@@ -43,7 +43,7 @@ h5{
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  max-width: 960px;
+  width: 960px;
   height: auto;
 }
 
