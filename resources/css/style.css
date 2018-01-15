@@ -144,6 +144,18 @@ img {
   color: white;
 }
 
+/* info section */
+.container .info {
+  justify-content: space-between;
+}
+.info-box h4 {
+  display: block;
+  height: 2.5rem;
+  width: 35%;
+  background-color: black;
+  color: white;
+}
+
 
 /* will be deleted later */
 div, header, nav, footer {
