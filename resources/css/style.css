@@ -43,7 +43,7 @@ h5{
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 960px;
+  max-width: 960px;
   height: auto;
 }
 
@@ -114,7 +114,7 @@ nav .container {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 960px;
+  max-width: 960px;
   height: auto;
   background-color: white;
   margin-top: 3rem;
