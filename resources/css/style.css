@@ -108,33 +108,41 @@ nav .container {
   justify-content: space-between;
 }
 
-/* products section */
+/* product-images section */
 .content-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: 960px;
+  width: 100%;
   height: auto;
   background-color: white;
-  margin-top: 3rem;
+  padding-top: 3rem;
 }
 .content-box .container {
+  flex-direction: row;
   justify-content: space-between;
 }
 .img-box {
+  width: 30%;
+  height: 14rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   border: 4px solid black;
-  padding: 0 2rem;
+  padding: 2rem 0 0 0;
 }
 .img {
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 0 2rem;
 }
 img {
-  height: 9rem;
+  display: block;
+  width: 9rem;
 }
 .img-box h4 {
   display: block;
@@ -142,22 +150,54 @@ img {
   width: 100%;
   background-color: black;
   color: white;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 3rem;
 }
 
-/* info section */
+/* info section  */
 .container .info {
   justify-content: space-between;
 }
-.info-box h4 {
-  display: block;
-  height: 2.5rem;
+.info-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 2rem;
   width: 35%;
   background-color: black;
   color: white;
+  margin: 3rem 0 4rem;
+  padding: 1rem 2rem;
+}
+.info-box h4 {
+  position: relative;
+  bottom: 1rem;
+}
+.container.info {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+.info .text {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+/* footer, copyright */
+footer .container {
+  justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
 }
 
 
-/* will be deleted later */
+
+
+/* will be deleted later
 div, header, nav, footer {
   border: 1px solid green;
-}
+} */
