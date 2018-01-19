@@ -254,14 +254,55 @@ footer .container {
   header h1 {
     display: none;
   }
+  header img {
+    display: block;
+    margin: auto;
+  }
+  header .container {
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+  }
   .img-box.hide2  {
     display: none;
     width: 0;
     height: 0;
   }
+  .img-box  {
+    width: 90%;
+    margin: auto;
+  }
+  .banner h2, .banner h3 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .banner h3 {
+    font-size: 0.77rem;
+  }
+  .container.info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    height: auto;
+  }
+  .info-box {
+    width: 80%;
+    height: 1.75rem;
+    margin: 2rem 0;
+    padding: 0.6rem 2rem;
+  }
+  .text {
+    position: relative;
+    top: -1rem;
+  }
+  footer h5 {
+    display: block;
+    margin: auto;
+  }
 }
 
-/* will be deleted later  */
+/* will be deleted later
 div, header, nav, footer {
   border: 1px solid green;
-}
+} */
